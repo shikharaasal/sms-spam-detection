@@ -4,7 +4,7 @@ A student project that classifies SMS messages as **spam** or **legitimate (ham)
 
 ## Live application
 
-**Streamlit app:** Add the deployed app URL here after deployment.
+[Open the SMS Spam Detection app](https://sms-spam-detection-ai.streamlit.app/)
 
 ## Project overview
 
