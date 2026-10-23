@@ -8,6 +8,10 @@ A student project that classifies SMS messages as **spam** or **legitimate (ham)
 
 ## Project overview
 
+## Open the notebook in Google Colab
+
+[Open the notebook](https://colab.research.google.com/github/shikharaasal/sms-spam-detection/blob/main/Project.ipynb)
+
 The classifier learns patterns in labeled SMS messages and predicts whether a new message is spam or legitimate. Message text is converted into numerical TF-IDF features, then classified using two models:
 
 - Multinomial Naive Bayes
