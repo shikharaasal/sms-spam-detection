@@ -1,0 +1,37 @@
+# Notion-style light theme
+[theme]
+base = "light"
+primaryColor = "#2383e2"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f7f7f5"
+textColor = "#37352f"
+linkColor = "#2383e2"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap, sans-serif"
+headingFontWeights = [700, 600, 600, 600, 600, 600]
+baseRadius = "6px"
+buttonRadius = "6px"
+borderColor = "#e9e9e7"
+dataframeBorderColor = "#e9e9e7"
+showWidgetBorder = true
+showSidebarBorder = true
+
+# Notion's block colors, used by alerts and badges
+redColor = "#d44c47"
+redBackgroundColor = "#fdebec"
+redTextColor = "#9f2f2d"
+greenColor = "#448361"
+greenBackgroundColor = "#edf3ec"
+greenTextColor = "#2f6a4a"
+blueColor = "#337ea9"
+blueBackgroundColor = "#e7f3f8"
+blueTextColor = "#28648a"
+yellowColor = "#cb912f"
+yellowBackgroundColor = "#fbf3db"
+yellowTextColor = "#89632a"
+grayColor = "#787774"
+grayBackgroundColor = "#f1f1ef"
+grayTextColor = "#787774"
+
+[theme.sidebar]
+backgroundColor = "#f7f7f5"
+secondaryBackgroundColor = "#efefed"

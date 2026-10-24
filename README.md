@@ -28,17 +28,17 @@ The project uses the Kaggle copy of the SMS Spam Collection dataset, containing 
 | Legitimate (ham) | 4,825 |
 | Spam | 747 |
 
-The dataset file in this repository is `SMS Spam Detection - Kaggle Data.csv`.
+The dataset file in this repository is `Kaggle Dataset.csv`.
 
 ## Repository contents
 
 | File | Description |
 |---|---|
 | `Project.ipynb` | Google Colab/Jupyter notebook for loading the data, training and evaluating the models, and trying example predictions |
-| `app.py` | Streamlit interface for entering an SMS and viewing its prediction |
+| `app.py` | Streamlit app: check a message and see which words drove the verdict, explore model performance and the spam threshold trade-off, and browse the dataset |
 | `spam_model.pkl` | Trained model loaded by the Streamlit app |
 | `requirements.txt` | Python dependencies for the app |
-| `SMS Spam Detection - Kaggle Data.csv` | SMS message dataset used in the project |
+| `Kaggle Dataset.csv` | SMS message dataset used in the project and by the app's performance and data tabs |
 | `SMS Spam Detection - Project Report.docx` | Written project report |
 | `SMS Spam Detection - Presentation.pptx` | Class presentation |
 
@@ -75,7 +75,7 @@ The app will display a local address in the terminal, usually `http://localhost:
 
 ## Deploy on Streamlit Community Cloud
 
-Deploy this GitHub repository through [Streamlit Community Cloud](https://share.streamlit.io/), selecting `app.py` as the app entry point. The repository must include `requirements.txt` and `spam_model.pkl`. After deployment, replace the Live application placeholder above with the app URL.
+Deploy this GitHub repository through [Streamlit Community Cloud](https://share.streamlit.io/), selecting `app.py` as the app entry point. The repository must include `requirements.txt` and `spam_model.pkl`, plus `Kaggle Dataset.csv` for the Model performance and About the data tabs. After deployment, replace the Live application placeholder above with the app URL.
 
 ## Limitations
 
